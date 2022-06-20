@@ -16,7 +16,7 @@ typedef struct Node{
 	struct Node* next;  //下一跳地址 
 }Node,*link;
 
-//表 
+//工作簿 
 typedef struct{
 	char name[10];	//表名 
 	link Link;
